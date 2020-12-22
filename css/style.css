@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 html{
     font-size: 62.5%;
 }
@@ -19,42 +20,41 @@ body{
 main{
     background-color: blanchedalmond;
     width: 80%;
+    height: 80vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
+main h1{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    
+}
+main p{
+    text-align: justify;
+    margin: 10px 50px;
+    font-size: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+main h2{
+    background-color: cadetblue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 10px;
+    border: dashed 5px blueviolet;
+}
 
 footer{
     background-color: rgb(155, 112, 195);
     display: flex;
+    width: 100%;
+    height: 100px;
     justify-content: space-around;
     align-items: center;
 }
@@ -96,4 +96,43 @@ footer a{
 
 .footer__twit:hover{
     background: #55ACEE;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+.header__logo{
+    background-color: rgb(19, 18, 18);
+    color: blanchedalmond;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    border: solid 5px gold;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    box-shadow: 6px 9px 5px -5px rgba(0,0,0,0.75);
+}
+
+
+
+nav{
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 2rem;
+
 }
