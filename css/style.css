@@ -24,3 +24,76 @@ main{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(155, 112, 195);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__logo{
+    font-size: 4rem;
+    display: inline-block;
+}
+
+.footer__logo a{
+    display: inline-block;
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: rgb(14, 13, 13);
+    border-radius: 50%;
+}
+
+footer ul{
+    display: inline-block;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+.footer__insta:hover{
+    background: palevioletred;
+}
+
+.footer__face:hover{
+    background: #3B5998;
+}
+
+.footer__twit:hover{
+    background: #55ACEE;
+}
