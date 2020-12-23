@@ -1,1 +1,5 @@
-console.log(`EN CONSOLA MAESTRO`)
+
+alert(`HOLA MAESTRO`)
+
+console.log(`EN CONSOLA mr.cat`)
+
